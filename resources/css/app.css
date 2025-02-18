@@ -1,0 +1,40 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+
+
+.main-section {
+    min-height: 100vh;
+    background: url('../img/test/group4.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.content-wrapper {
+    color: white;
+}
+
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 10px;
+    
+    img {
+        height: 300px;
+        object-fit: cover;
+    }
+}
+
+.btn-primary {
+    background-color: #ff69b4;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    
+    &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 15px rgba(255, 105, 180, 0.3);
+        background-color: darken(#ff69b4, 5%);
+    }
+}
